@@ -4,7 +4,7 @@
     <v-card class="ma-15 mx-auto " max-width="544">
         <v-card color="#212121" class="text-white">
             
-          <v-card-title class="mt-10 "><h2>Quiz App</h2></v-card-title>
+          <v-card-title class="mt-10"><h1>Quiz App</h1></v-card-title>
           <quizapp @quiz-completed="handleQuizCompleted" :key="quizKey" />
           <modal
             v-show="showModal"

@@ -7,7 +7,6 @@
     <div class="correctAnswers">
       Currently at question {{ index + 1 }} of {{ questions.length }}
     </div>
-
     <h1 v-html="loading ? 'Loading...' : currentQuestion.question"></h1>
 
     <form v-if="currentQuestion">
