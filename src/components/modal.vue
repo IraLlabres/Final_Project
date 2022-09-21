@@ -84,7 +84,7 @@ export default {
   max-width: 650px;
   margin: 0px auto;
   padding: 20px 30px;
-  background-color: #fff;
+  background-color: #212121;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
   transition: all 0.3s ease;
@@ -95,11 +95,11 @@ export default {
 }
 
 .modal-header h2 {
-  color: rgb(0, 178, 72);
+  color: white);
 }
 
 .modal-header h3 {
-  color: rgb(0, 178, 72);
+  color: rgb(white);
 }
 
 .modal-body {
@@ -141,8 +141,8 @@ export default {
   padding: 1rem 2rem;
   background: linear-gradient(
     210deg,
-    rgba(187, 0, 47, 0.8),
-    rgba(245, 0, 87, 0.6)
+    rgba(100, 100, 100, 0.3),
+    rgba(100, 100, 100, 0.3)
   );
   border-radius: 7px;
   border: none;
@@ -165,14 +165,13 @@ export default {
 
 .highlight {
   border-radius: 4px;
-  background-color: rgba(187, 0, 47, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   padding: 0.25rem 0.5rem;
 }
 
 #score {
-  background-color: rgb(210, 200, 200);
+  background-color: #455A64;
   border-radius: 5px;
-  box-shadow: 2px 3px 9px gray;
 }
 
 #chooseCategory {
