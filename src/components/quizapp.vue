@@ -112,7 +112,7 @@ export default {
         setTimeout(() => {
           this.saveHistory()
           this.$emit("quiz-completed", this.score);
-        }, 3000);
+        }, 1000);
     },
   },
   methods: {
@@ -140,7 +140,7 @@ export default {
       this.timeTake = taken.toGMTString()
       this.loading = true;
       let index = 0;
-      let { data } = await axios.get("https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple");
+      let { data } = await axios.get("https://opentdb.com/api.php?amount=10&difficulty=easy&type=multiple");
       let questions = data.results.map((question) => {
         question.answers = [
           question.correct_answer,
