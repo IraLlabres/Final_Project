@@ -95,7 +95,7 @@ export default {
 }
 
 .modal-header h2 {
-  color: white);
+  color: white;
 }
 
 .modal-header h3 {
